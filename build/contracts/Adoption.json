@@ -18,7 +18,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -50,7 +51,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"petId\",\"type\":\"uint256\"}],\"name\":\"adopt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"adopters\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAdopters\",\"outputs\":[{\"internalType\":\"address[16]\",\"name\":\"\",\"type\":\"address[16]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Adoption.sol\":\"Adoption\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Adoption.sol\":{\"keccak256\":\"0xf62c01ac4a6bf9faf17c092e11f5dd69c2d4f1e34ad8249d222a0aba57d8b677\",\"urls\":[\"bzz-raw://f1d20f49a1f1e4ffa32da9f0615b79610dc985020f4f4bd0b1826fc3aa20838e\",\"dweb:/ipfs/QmXNuRQDbT8kCtZauFZVBti4oFrRy4M5h7mpiy4rMDxWUT\"]}},\"version\":1}",
@@ -2478,9 +2480,17 @@
     "name": "solc",
     "version": "0.8.14+commit.80d49f37.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x46D48a15B6CFf9E90Ef9E046C7B2e86DA48C0430",
+      "transactionHash": "0xd334931e4666b43a4b9585b44a3d115d39eebfeb781d48e42f9cbebc23c8b82a"
+    }
+  },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-21T02:59:25.127Z",
+  "updatedAt": "2022-05-21T05:35:33.456Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
