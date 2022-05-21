@@ -1,4 +1,4 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.14;
 
 contract Adoption{
     address[16] public adopters;
